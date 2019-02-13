@@ -259,7 +259,7 @@ begin
   set
     pref_name = upper(pref_name),
     pref_type = upper(pref_type)
-  where 1=1
+  where 1=0
     or pref_name != upper(pref_name)
     or pref_type != upper(pref_type);
 
